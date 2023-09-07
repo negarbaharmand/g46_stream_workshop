@@ -30,7 +30,7 @@ public class StreamExercise {
     public void task1(){
         List<Integer> integers = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
 
-        //Write code here
+        //TODO:Write code here
 
     }
 
@@ -41,7 +41,7 @@ public class StreamExercise {
     public void task2(){
         long amount = 0;
 
-        //Write code here
+        //TODO:Write code here
 
         assertEquals(10000, amount);
     }
