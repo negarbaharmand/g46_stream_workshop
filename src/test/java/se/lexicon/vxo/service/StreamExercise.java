@@ -54,7 +54,7 @@ public class StreamExercise {
         long amount = 0;
         int expected = 90;
 
-        //Write code here
+        //TODO:Write code here
 
         assertEquals(expected, amount);
     }
@@ -67,7 +67,7 @@ public class StreamExercise {
         int expectedSize = 4988;
         List<Person> females = null;
 
-        //Write code here
+        //TODO:Write code here
 
 
         assertNotNull(females);
@@ -82,7 +82,7 @@ public class StreamExercise {
         int expectedSize = 8882;
         Set<LocalDate> dates = null;
 
-        //Write code here
+        //TODO:Write code here
 
         assertNotNull(dates);
         assertTrue(dates instanceof TreeSet);
@@ -98,7 +98,7 @@ public class StreamExercise {
 
         Person[] result = null;
 
-        //Write code here
+        //TODO:Write code here
 
         assertNotNull(result);
         assertEquals(expectedLength, result.length);
@@ -113,7 +113,7 @@ public class StreamExercise {
 
         Optional<Person> optional = null;
 
-        //Write code here
+        //TODO:Write code here
 
         assertNotNull(optional);
         assertTrue(optional.isPresent());
@@ -129,7 +129,7 @@ public class StreamExercise {
 
         Optional<Person> optional = null;
 
-        //Write code here
+        //TODO:Write code here
 
         assertNotNull(optional);
         assertEquals(expectedBirthDate, optional.get().getDateOfBirth());
@@ -145,7 +145,7 @@ public class StreamExercise {
 
         List<PersonDto> dtoList = null;
 
-        //Write code here
+        //TODO:Write code here
 
         assertNotNull(dtoList);
         assertEquals(expectedSize, dtoList.size());
@@ -162,7 +162,7 @@ public class StreamExercise {
 
         Optional<String> optional = null;
 
-        //Write code here
+        //TODO:Write code here
 
         assertNotNull(optional);
         assertTrue(optional.isPresent());
@@ -180,7 +180,7 @@ public class StreamExercise {
         double expected = 54.42;
         double averageAge = 0;
 
-        //Write code here
+        //TODO:Write code here
 
         assertTrue(averageAge > 0);
         assertEquals(expected, averageAge, .01);
@@ -195,7 +195,7 @@ public class StreamExercise {
 
         String[] result = null;
 
-        //Write code here
+        //TODO:Write code here
 
         assertNotNull(result);
         assertArrayEquals(expected, result);
@@ -209,7 +209,7 @@ public class StreamExercise {
         int expectedSize = 107;
         Map<String, List<Person>> personMap = null;
 
-        //Write code here
+        //TODO:Write code here
 
         assertNotNull(personMap);
         assertEquals(expectedSize, personMap.size());
@@ -222,7 +222,7 @@ public class StreamExercise {
     public void task14(){
         LocalDate[] _2020_dates = null;
 
-        //Write code here
+        //TODO:Write code here
 
 
         assertNotNull(_2020_dates);
